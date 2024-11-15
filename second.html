@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    create a folder
+    mkdir mayuri
+cd mayuri
+touch index.html -- add some content in this file
+touch DockerFile 
+rm docker 
+</head>
+<body>
+   open docker file and type
+FROM enginx
+COPY index.html\usr\share\enginx\html\  -- save this
+
+    <nav>
+        sudo Docker build -t (proj_name) .
+        sudo Docker images
+        sudo Docker run -d -p 8080:80 (proj_name)
+        open browser -- 0.0.0.0:8080 enter
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a simple HTML page to demonstrate basic structure and elements.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple HTML Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
